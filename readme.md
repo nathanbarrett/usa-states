@@ -149,10 +149,6 @@ Outputs
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-Version 0.0.1
-
 ## Credits
 
 Author: Nathan Barrett
