@@ -73,7 +73,7 @@ You can get them as an array of strings using an alias selector
 (full list of alias selectors below)
 
 ```javascript
-var usStates= new UsaStates(myOptionalFilterSettings);
+var usStates = new UsaStates(myOptionalFilterSettings);
 var statesAbbreviation = usStates.arrayOf('abbreviations');
 var statesNames = usStates.arrayOf('names');
 console.log(statesAbbreviation);
@@ -90,7 +90,7 @@ If you want an alias ignored just append a '$' character to the desired location
 (note: you can change this ignore character in your filter config, see below)
 
 ```javascript
-var usStates= new UsaStates(myOptionalFilterSettings);
+var usStates = new UsaStates(myOptionalFilterSettings);
 var myCustomStates = usStates.format({
     name: 'abbreviation',
     $abbreviation: 'abbr', // alternate alias 'abbr', see all below
