@@ -21,6 +21,5 @@
   },
   "author": "Nathan Barrett <nathan.barrett@gmail.com>",
   "typings": "./src/index.d.ts",
-  "author": "Nathan Barrett",
   "license": "ISC"
 }
