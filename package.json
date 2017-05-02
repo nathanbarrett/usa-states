@@ -1,0 +1,20 @@
+{
+  "name": "usa-states",
+  "version": "0.0.1",
+  "description": "Helper library for getting all of the states and territories of the United States in the specific format that you need.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "united",
+    "states",
+    "array",
+    "abbreviation",
+    "abbreviations",
+    "state"
+  ],
+  "typings": "./src/index.d.ts",
+  "author": "Nathan Barrett",
+  "license": "ISC"
+}
