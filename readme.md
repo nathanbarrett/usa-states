@@ -9,7 +9,7 @@ A simple javascript library to aid with the creation of your custom array of US 
 Then include the library in your project with either
 
 ```javascript
-var UsaStates = require('usa-states');
+var UsaStates = require('usa-states').UsaStates;
 ```
 
 or
