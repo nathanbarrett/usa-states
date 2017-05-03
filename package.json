@@ -1,6 +1,6 @@
 {
   "name": "usa-states",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Helper library for getting all of the states and territories of the United States in the specific format that you need.",
   "main": "index.js",
   "scripts": {
