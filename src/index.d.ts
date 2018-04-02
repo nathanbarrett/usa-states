@@ -7,20 +7,6 @@ export as namespace usaStatesLib;
 
 export = UsaStates;
 
-/*~ Write your module's methods and properties in this class */
-declare class UsaStates {
-    constructor(configuration?: UsaStates.IConfiguration);
-
-    states: any[];
-    config: UsaStates.IConfiguration;
-
-    /** Takes a selector of 'abbreviation', 'state', or 'capital' and returns an array of strings */
-    arrayOf(selector: string): string[];
-
-    /** Takes a custom object template with aliases and returns an array of us states in that format */
-    format(customFormat?: Object): Object[];
-}
-
 /*~ If you want to expose types from your module as well, you can
  *~ place them in this block.
  */
@@ -38,5 +24,19 @@ declare namespace UsaStates {
         includeTerritories: boolean,
         exclude: string[],
         ignoreCharacter: string
+    }
+    
+    /*~ Write your module's methods and properties in this class */
+    export class UsaStates {
+        constructor(configuration?: UsaStates.IConfiguration);
+
+        states: any[];
+        config: UsaStates.IConfiguration;
+
+        /** Takes a selector of 'abbreviation', 'state', or 'capital' and returns an array of strings */
+        arrayOf(selector: string): string[];
+
+        /** Takes a custom object template with aliases and returns an array of us states in that format */
+        format(customFormat?: Object): Object[];
     }
 }
