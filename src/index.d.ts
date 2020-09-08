@@ -30,7 +30,7 @@ declare namespace UsaStates {
     export class UsaStates {
         constructor(configuration?: UsaStates.IConfiguration);
 
-        states: any[];
+        states: IStateResult[];
         config: UsaStates.IConfiguration;
 
         /** Takes a selector of 'abbreviation', 'state', or 'capital' and returns an array of strings */
