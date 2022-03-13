@@ -14,10 +14,10 @@
     "abbreviations",
     "state"
   ],
-  "url": "https://github.com/unfortunatetoast/usa-states",
+  "url": "https://github.com/nathanbarrett/usa-states",
   "repository": {
     "type": "git",
-    "url": "https://github.com/unfortunatetoast/usa-states"
+    "url": "https://github.com/nathanbarrett/usa-states"
   },
   "author": "Nathan Barrett <nathan.barrett@gmail.com>",
   "typings": "./src/index.d.ts",
